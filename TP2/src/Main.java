@@ -1,12 +1,15 @@
-package TP1.src;
+package TP2.src;
 
-import TP1.src.modele.*;
+import TP2.src.modele.*;
 
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, world !");
+        System.out.println("Hello, world ! (2)");
 
+
+        Formule1 v1 = new Formule1();
+        System.out.println(v1);
     }
 
     
