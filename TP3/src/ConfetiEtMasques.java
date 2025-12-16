@@ -41,30 +41,41 @@ public class ConfetiEtMasques {
 
         
         // Machine 1
-        atelier.AddTache(listeTaches.get(0), 1);
-        atelier.AddTache(listeTaches.get(3), 1);
-        atelier.AddTache(listeTaches.get(6), 1);
-        atelier.AddTache(listeTaches.get(9), 1);
-        atelier.AddTache(listeTaches.get(12), 1);
-        atelier.AddTache(listeTaches.get(15), 1);
-        atelier.AddTache(listeTaches.get(18), 1);
+        // atelier.AddTache(listeTaches.get(0), 1);
+        // atelier.AddTache(listeTaches.get(3), 1);
+        // atelier.AddTache(listeTaches.get(6), 1);
+        // atelier.AddTache(listeTaches.get(9), 1);
+        // atelier.AddTache(listeTaches.get(12), 1);
+        // atelier.AddTache(listeTaches.get(15), 1);
+        // atelier.AddTache(listeTaches.get(18), 1);
 
-        // // Machine 2
-        atelier.AddTache(listeTaches.get(1), 2);
-        atelier.AddTache(listeTaches.get(4), 2);
-        atelier.AddTache(listeTaches.get(7), 2);
-        atelier.AddTache(listeTaches.get(10), 2);
-        atelier.AddTache(listeTaches.get(13), 2);
-        atelier.AddTache(listeTaches.get(16), 2);
-        atelier.AddTache(listeTaches.get(19), 2);
+        // // // Machine 2
+        // atelier.AddTache(listeTaches.get(1), 2);
+        // atelier.AddTache(listeTaches.get(4), 2);
+        // atelier.AddTache(listeTaches.get(7), 2);
+        // atelier.AddTache(listeTaches.get(10), 2);
+        // atelier.AddTache(listeTaches.get(13), 2);
+        // atelier.AddTache(listeTaches.get(16), 2);
+        // atelier.AddTache(listeTaches.get(19), 2);x
 
-        // // Machine 3
-        atelier.AddTache(listeTaches.get(2), 0);
-        atelier.AddTache(listeTaches.get(5), 0);
-        atelier.AddTache(listeTaches.get(8), 0);
-        atelier.AddTache(listeTaches.get(11), 0);
-        atelier.AddTache(listeTaches.get(14), 0);
-        atelier.AddTache(listeTaches.get(17), 0);
+        // // // Machine 3
+        // atelier.AddTache(listeTaches.get(2), 0);
+        // atelier.AddTache(listeTaches.get(5), 0);
+        // atelier.AddTache(listeTaches.get(8), 0);
+        // atelier.AddTache(listeTaches.get(11), 0);
+        // atelier.AddTache(listeTaches.get(14), 0);
+        // atelier.AddTache(listeTaches.get(17), 0);
+
+
+        for (int i = 0; i < listeTaches.size(); i++) {
+            // if (atelier.getListeMachine().get(0).getDateAchevement() >= atelier.getListeMachine().get(1).getDateAchevement()){
+
+            // }
+
+            
+
+        
+        }
 
 
 
