@@ -10,7 +10,7 @@ import javax.swing.border.Border;
 import java.awt.event.MouseEvent;
 
 
-public class Fenetre extends JFrame implements MouseMotionListener{
+public class Fenetre extends JFrame implements MouseMotionListener, java.awt.event.MouseListener{
 
 
     BarreBasse b;
@@ -44,6 +44,7 @@ public class Fenetre extends JFrame implements MouseMotionListener{
             this.z = z;
             ajouterPanneau(this.z, BorderLayout.CENTER);
             this.z.addMouseMotionListener(this);
+            this.z.addMouseListener(this);
         }
     }
 
@@ -53,6 +54,7 @@ public class Fenetre extends JFrame implements MouseMotionListener{
 
      @Override
     public void mouseDragged(MouseEvent e) {
+        this.z.deplacementSouris(e);
         
     }
 
@@ -61,4 +63,28 @@ public class Fenetre extends JFrame implements MouseMotionListener{
     public void mouseMoved(MouseEvent e) {
         this.b.deplacementSouris(e);
     }
+    @Override
+    public void mousePressed(MouseEvent e) {
+        // System.out.println("Appui");
+        this.z.pressed(e);
+    }
+
+    @Override
+    public void mouseReleased(MouseEvent e) {
+        // System.out.println("Relâchement");
+        this.z.released(e);
+    }
+
+    @Override
+    public void mouseClicked(MouseEvent e) {
+    }
+
+    @Override
+    public void mouseEntered(MouseEvent e) {
+    }
+
+    @Override
+    public void mouseExited(MouseEvent e) {
+    }
+    
 }
